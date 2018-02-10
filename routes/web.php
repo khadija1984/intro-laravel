@@ -16,4 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('email', 'EmailController@index');
+Route::get('post/create', 'PostController@create');
+
+Route::post('post', 'PostController@store');
 

@@ -16,6 +16,36 @@
         </style>
     </head>
     <body>
-        <h1><center>salut les gents</center></h1>
+        <h1><center>Formulaire d'inscription</center></h1>
+        <form method="post" action="/email"><center>
+         
+            <p>
+                <label for="pseudo">Votre Adresse E-mail :</label><br />
+                <input type="text" name="email" id="email" /><br /
+                <label for="pseudo">Votre pseudo :</label><br />
+                <input type="text" name="email" id="email" /><br />
+
+                <br />
+                <label for="pass">Votre mot de passe :</label><br />
+                <input type="password" name="pass" id="pass" /><br /><br />
+                <label for="pass">Confirmez votre Adresse E-mail :</label><br /><br />
+                <input type="password" name="pass" id="pass" /><br />
+
+            </p>
+<br />
+            <p>
+                <label for="pays">Dans quel pays habitez-vous ?</label><br /><br /><br />
+                <select name="pays" id="pays">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                    <option value="royaume-uni">Royaume-Uni</option>
+                    <option value="canada">Canada</option>
+                    <option value="etats-unis">États-Unis</option>
+                    <option value="chine">Chine</option>
+                    <option value="japon">Japon</option>
+                </select>
+            </p>
+            </center></form>
     </body>
 </html>
